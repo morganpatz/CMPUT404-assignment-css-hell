@@ -1,0 +1,73 @@
+body {
+	background-color: #FFDB94;
+
+}
+h1 {
+	font-family: Georgia, Times, serif;
+	font-size: 6em;
+	text-align: center;
+	color: #A30000;
+}
+h2 {
+	font-family: Georgia, Times, serif;
+	font-size: 2em;
+	text-align: center;
+	text-transform: capitalize;
+	font-style: italic;
+	color: #3D1F00;
+}
+h3 {
+	font-family: Georgia, Times, serif;
+	font-size: 2em;
+	text-align: center;
+	text-transform: capitalize;
+	color: #A30000;
+}
+p {
+	font-family: Georgia, Times, serif;
+	font-size: 1em;
+	text-align: left;
+	color: #3D1F00;
+}
+p.cb , p.c , p.figcenter, div.fig {
+	text-align: center;
+}
+a:link {
+    text-decoration: none;
+    color: #A30000;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+img {
+	opacity: 0.4;
+}
+h5 {
+	border-style: solid;
+    border-width: 5px;
+    border-color: #A30000;
+    color: #3D1F00;
+    margin-right: 500px;
+    margin-left: 500px;
+    text-align: center;
+}
+.mynote {
+	border-style: solid;
+    border-width: 5px;
+    border-color: #A30000;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: Georgia, Times, serif;
+	font-size: 1em;
+	text-align: justify;
+	color: #3D1F00;
+}
+
+
+

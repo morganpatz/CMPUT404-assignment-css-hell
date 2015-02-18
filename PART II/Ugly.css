@@ -1,0 +1,224 @@
+body {
+	background-color: white;
+}
+
+#header {
+	background-color: blue;
+	padding-bottom: 1.5em;
+	margin-left: -1em;
+}
+
+hr {
+	visibility: hidden;
+}
+
+#beta {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+	text-transform: capitalize;
+	color: black;
+	background: yellow;
+	margin-right: 10em;
+	margin-left: 25em;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Comic Sans MS", sans-serif;
+	font-size: 4em;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	padding-top: 2em;
+	margin-top: 0;
+
+	background: -webkit-linear-gradient(left, yellow, red, blue);
+	background: linear-gradient(left, yellow, red, blue);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+h1, #headerimggood, #beta{
+	display: none;
+}
+
+#headerimgugly {
+	background: url(Header-Ugly.png);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	/*
+	margin-left: -7em;
+	margin-top: -2em;
+	width: auto;
+	*/
+}
+
+h2.bio {
+	color:white;
+}
+
+.main {
+	margin-right: 0em;
+}
+
+#aboutme {
+  position:relative;
+  padding:15px;
+  margin-top: 2em;
+  margin-left: 20em;
+  margin-right: 20em;
+  color:#000;
+  background:#f3961c; /* default background for browsers without gradient support */
+  /* css3 */
+  background: #FF6EEC;
+  border-radius:10px;
+ }
+
+ img#cat {
+ 	background: yellow;
+ 	right: 0.5em;
+ }
+
+
+img {
+	float: left;
+	padding-top: 1em;
+	padding-left: 3em;
+	padding-right: 2em;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	text-align: center;
+}
+
+li.nav {
+	display: inline;
+}
+
+a:link, a:visited {
+	font-family: "Comic Sans MS", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	background: linear-gradient(yellow, orange);
+	padding: 0.75em;
+}
+
+a:hover, a:active {
+	color: red;
+}
+
+
+
+h2 {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: black;
+}
+
+#bolt {
+	float: right;
+	margin-right: 20em;
+}
+
+h2.experience {
+	padding-top: 1em;
+	margin-top: 1em;
+}
+
+
+p {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: black;
+}
+
+p.bio {
+	margin-right: 0;
+}
+
+h3 {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 1.5em;
+	color: black;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+h4 {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 1.0em;
+	font-style: italic;
+	color: black;
+	padding: 0;
+	margin-top: 0;
+}
+
+h5 {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: black;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+h6 {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 1.0em;
+	font-style: italic;
+	color: black;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+ul.whyme {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: black;
+}
+
+a.whyme:link, a.whyme:visited {
+	font-family: "Comic Sans MS", sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	color: teal;
+	text-transform: none;
+	background: none;
+	text-decoration: underline;
+}
+
+a.whyme:hover, a.whyme:active {
+	color: red;
+	text-transform: none;
+	background: none;
+	text-decoration: underline;
+}
+
+.sbar {
+	color: teal;
+}
+
+
+#sidebar {
+	background: yellow;
+	float: right;
+	width: 15em;
+	height: 15em;
+	text-align: center;
+	padding-top: 2em;
+}
